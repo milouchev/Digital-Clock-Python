@@ -11,7 +11,7 @@ import tkinter as ui
 import time
 
 window = ui.Tk()
-window.title("Digital Clock")
+window.title("Digital Clock - " + str(time.tzname))
 
 def clock_update():
 # "%I" for 12-hour clock, "%H" for 24-hour clock
